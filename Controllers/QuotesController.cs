@@ -4,7 +4,7 @@ using FisherInsuranceApi.Models;
 
 namespace FisherInsuranceApi.Controllers
 {
-    [Route("api/auto/quotes")]
+    [Route("api/quotes")]
     public class AutoController : Controller
     {
         private IMemoryStore db;
