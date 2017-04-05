@@ -6,12 +6,12 @@ import 'rxjs/Rx';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-
+import { NavBarComponent } from './components/navbar/navbar.component';
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-    
+        NavBarComponent
     ],
     imports: [
         BrowserModule,
